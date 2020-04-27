@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "搜索",
+  "navigationBarBackgroundColor": "#00e4ff",
+  "usingComponents": {
+    "van-tag": "/wxcomponents/vant-weapp/tag/index",
+    "van-icon": "/wxcomponents/vant-weapp/icon/index"
+  }
+}

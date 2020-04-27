@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "乐库",
+  "navigationBarBackgroundColor": "#ff5524",
+  "usingComponents": {
+    "song-footer": "/components/uni-music/SongFooter"
+  }
+}

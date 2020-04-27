@@ -1,0 +1,210 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+				"style": {
+					"navigationBarTitleText": "启动页",
+					"app-plus": {
+						"titleNView": false
+					}
+				}
+			},
+		{
+			"path": "pages/index/guide",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/dmusic/index",
+			"style": {
+				"navigationBarTitleText": "动音乐",
+				"navigationBarBackgroundColor":"#00e4ff",
+				"app-plus": {
+				        "titleNView": {
+				            "buttons": [{
+				                "text": "\ue605",
+				                    "fontSrc": "/static/iconfont.ttf",
+				                    "fontSize": "22px",
+				                    "float": "left"
+				                }
+				            ]
+				    }
+				}
+			}
+		},
+		{
+			"path": "pages/dynamic/index",
+			"style": {
+					"navigationBarTitleText": "首页",
+					"navigationStyle":"custom",
+					"app-plus": {
+						"titleNView": false,
+						"subNVues": [{
+							"id": "drawer",
+							"path": "pages/dynamic/subnvue/drawer",
+							"type": "popup",
+							"style": {
+								"height": "100%",
+								"position":"absolute",
+								"bottom":"0",
+								"background":"transparent"
+							}
+						},{
+							"id": "forward",
+							"path": "pages/dynamic/subnvue/forward",
+							"type": "popup",
+							"style": {
+								"height": "100%",
+								"position":"absolute",
+								"bottom":"0",
+								"background":"transparent"
+							}
+						},{
+							"id": "marskTop",
+							"path": "pages/dynamics/subnvue/marskTop",
+							"style":{
+								"height": "88px",
+								"position":"absolute",
+								"top":"0",
+								"background":"transparent"
+							}
+						}]
+					}
+				}
+			},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#00e4ff"
+			}
+		},
+		{
+			"path": "pages/recommend/index",
+			"style": {
+				"navigationBarTitleText": "推荐",
+				"navigationBarBackgroundColor":"#00e4ff",
+				"usingComponents": {
+				    "van-icon": "/wxcomponents/vant-weapp/icon/index"
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/ranking/rankinglist",
+            "style" : {
+				"navigationBarTitleText": "排行榜",
+				"navigationBarBackgroundColor":"#00e4ff"
+			}
+        },
+		{
+		    "path" : "pages/ranking/ranking",
+		    "style" : {
+				"navigationBarTitleText": "排行榜",
+				"navigationBarBackgroundColor":"#00e4ff"
+			}
+		}
+        ,{
+            "path" : "pages/musiclibrary/musiclibrary",
+            "style" : {
+				"navigationBarTitleText": "歌单",
+				"navigationBarBackgroundColor":"#00e4ff"
+			}
+        }
+        ,{
+            "path" : "pages/songsheet/songsheet",
+            "style" : {
+				"navigationBarTitleText": "歌单",
+				"navigationBarBackgroundColor":"#00e4ff"
+			}
+        }
+        ,{
+            "path" : "pages/singer/singer",
+            "style" : {
+				"navigationBarTitleText": "歌手",
+				"navigationBarBackgroundColor":"#00e4ff"
+			}
+        },
+		{
+		    "path": "pages/login/login",
+		    "style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+		    "path": "pages/login/forget",
+		    "style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+		    "path": "pages/login/register",
+		    "style": {
+				"navigationBarTitleText": "注册"
+			}
+		} 
+        ,{
+            "path" : "pages/test/test",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/song/index",
+		    "style" : {
+				"titleNView": true
+			}
+		}
+        ,{
+            "path" : "pages/musiclibrary/index",
+            "style" : {
+            	"navigationBarTitleText": "乐库",
+            	"navigationBarBackgroundColor":"#00e4ff"
+            }
+        },
+		{
+			"path": "pages/webView/webView",
+			"style": {}
+		}
+        ,{
+            "path" : "pages/search/index",
+            "style" : {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor":"#00e4ff"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#FFFFFF",
+		"selectedColor": "#00e4ff",
+		"borderStyle": "black",
+		    "backgroundColor": "#1e2035",
+		    "list": [{
+		        "pagePath": "pages/dmusic/index",
+		        "iconPath": "static/icon/music1.png",
+		        "selectedIconPath": "static/icon/music.png",
+		            "text": "动音乐"
+			}, {
+		        "pagePath": "pages/recommend/index",
+		        "iconPath": "static/icon/tuijian1.png",
+		        "selectedIconPath": "static/icon/tuijian.png",
+		        "text": "推荐"
+		    }, {
+		        "pagePath": "pages/dynamic/index",
+		        "iconPath": "static/icon/dongtai1.png",
+		        "selectedIconPath": "static/icon/dongtai.png",
+		        "text": "动视"
+		    }, {
+		        "pagePath": "pages/me/index",
+		        "iconPath": "static/icon/wode1.png",
+		        "selectedIconPath": "static/icon/wode.png",
+		        "text": "我的"
+		    }
+		]
+	}
+}

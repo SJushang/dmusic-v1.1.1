@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "动音乐",
+  "navigationBarBackgroundColor": "#00e4ff",
+  "usingComponents": {
+    "special-banner": "/components/specialBanner",
+    "song-footer": "/components/uni-music/SongFooter",
+    "item-container": "/components/index/item-container",
+    "song-sheet": "/components/uni-music/SongSheet",
+    "van-icon": "/wxcomponents/vant-weapp/icon/index"
+  }
+}

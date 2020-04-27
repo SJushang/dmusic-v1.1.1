@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "歌单",
+  "navigationBarBackgroundColor": "#00e4ff",
+  "usingComponents": {
+    "song-footer": "/components/uni-music/SongFooter"
+  }
+}

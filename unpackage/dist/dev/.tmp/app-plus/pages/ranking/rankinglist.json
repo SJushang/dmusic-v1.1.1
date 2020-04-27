@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "排行榜",
+  "navigationBarBackgroundColor": "#00e4ff",
+  "usingComponents": {
+    "song-sheet": "/components/uni-music/Ranking",
+    "van-icon": "/wxcomponents/vant-weapp/icon/index",
+    "song-footer": "/components/uni-music/SongFooter"
+  }
+}

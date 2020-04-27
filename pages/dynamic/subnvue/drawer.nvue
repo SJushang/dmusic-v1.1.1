@@ -1,0 +1,36 @@
+<template>
+    <div class="wrapper">
+		<div class="top" @click="hideDrawer()"></div>
+		<div class="buttom">
+			<text class="bottom-title">评论</text>
+		</div>
+    </div>
+</template>
+
+<script>
+    export default {
+		data() {
+			return {}
+		},
+		beforeCreate() {},
+		created() {},
+        methods: {
+            hideDrawer() {
+                uni.getCurrentSubNVue().hide('auto')
+            },
+			clickitem(e) {}
+        }
+    }
+</script>
+
+<style scoped>
+	.wrapper {
+		flex-direction: column;
+		flex: 1;
+		text-align: center;
+		background-color: transparent;
+	}
+	.top{background-color: #000;opacity: 0.6;flex: 4;}
+	.buttom{background-color: #fff;flex: 8; border-top-left-radius:10px;border-top-right-radius:10px; }
+	.bottom-title{flex: 1;height: 30px;line-height: 30px; text-align: center;font-size: 14px;color: #888;}
+</style>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "推荐",
+  "navigationBarBackgroundColor": "#00e4ff",
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant-weapp/icon/index",
+    "song-sheet": "/components/uni-music/SongSheet",
+    "song-footer": "/components/uni-music/SongFooter"
+  }
+}

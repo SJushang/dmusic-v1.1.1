@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/guide",
+    "pages/dmusic/index",
+    "pages/dynamic/index",
+    "pages/me/index",
+    "pages/recommend/index",
+    "pages/ranking/rankinglist",
+    "pages/musiclibrary/musiclibrary",
+    "pages/songsheet/songsheet",
+    "pages/singer/singer",
+    "pages/dynamic/detail",
+    "pages/login/login",
+    "pages/login/forget",
+    "pages/login/register",
+    "pages/test/test",
+    "pages/song/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#00e4ff",
+    "borderStyle": "black",
+    "backgroundColor": "#1e2035",
+    "list": [
+      {
+        "pagePath": "pages/dmusic/index",
+        "iconPath": "static/icon/music1.png",
+        "selectedIconPath": "static/icon/music.png",
+        "text": "动音乐"
+      },
+      {
+        "pagePath": "pages/recommend/index",
+        "iconPath": "static/icon/tuijian1.png",
+        "selectedIconPath": "static/icon/tuijian.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/dynamic/index",
+        "iconPath": "static/icon/dongtai1.png",
+        "selectedIconPath": "static/icon/dongtai.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "iconPath": "static/icon/wode1.png",
+        "selectedIconPath": "static/icon/wode.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "Dmusic1.0",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {}
+}

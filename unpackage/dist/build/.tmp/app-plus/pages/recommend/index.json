@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "推荐",
+  "navigationBarBackgroundColor": "#ff5524",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control"
+  }
+}

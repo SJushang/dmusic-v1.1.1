@@ -1,0 +1,54 @@
+<template>
+    <div class="wrapper">
+		<div class="status-bar"></div>
+		<div class="nav" @click="back">
+			<text class="iconfont title title-left">&#xe611;</text><div class="title-center"><text class="title" :class="active==0?'active-title':''" @click="active=0">推荐</text> &nbsp; <text class="title" :class="active==1?'active-title':''" @click="active=1">同城</text></div><image class="img" src="../../../../static/img/ay6.png"></image> <!-- <text class="iconfont title title-rigth">&#xe73d;</text> -->
+		</div>
+    </div>
+</template>
+
+<script>
+    export default {
+		data() {
+			return {
+				active:0,
+			}
+		},
+		beforeCreate() {
+			var domModule = weex.requireModule('dom');
+			domModule.addRule('fontFace', {
+				'fontFamily': "iconfont",
+				'src': "url('https://at.alicdn.com/t/font_1363867_684qwpui9fp.ttf')"
+			});
+		},
+		methods: {
+		},
+	}
+</script>
+
+<style>
+	.iconfont{
+		font-family:iconfont;
+	}
+	.wrapper {
+		/* background-image: linear-gradient(to right, #a80077, #66ff00); */
+		background-color:transparent;
+		/* background-color:#FFFFFF; */
+		height: 166upx;
+		flex-direction: column;
+	}
+	.status-bar {
+		height: 44upx;	background-color:transparent;
+	}
+	.nav {
+		flex-direction: row;height:80upx; justify-content: space-between;padding: 0 15px;
+	}
+	.title{line-height: 80upx;color: #eee;font-size: 18px;}
+	.title-left{color: #FFFFFF;font-size: 18px;}
+	.title-rigth{color: #FFFFFF;font-size: 18px;}
+	.title-center{flex-direction: row;height: 45px;}
+	
+	.active-title{border-bottom-width: 1px;font-weight: bold; border-style: solid;border-bottom-color: #FFFFFF; color: #FFFFFF;height: 40px;}
+	.img{width: 50upx;height: 50upx;margin-top: 18upx;}
+
+</style>

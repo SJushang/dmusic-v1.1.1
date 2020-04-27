@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"uni-indexed-list__menu{ background-color: #000000; }\n",])();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/singer/singer.wxml') } }));

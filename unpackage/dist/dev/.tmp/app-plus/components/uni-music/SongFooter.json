@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "play-list": "/components/uni-music/PlayList"
+  }
+}

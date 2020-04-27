@@ -1,0 +1,1 @@
+<view class="content" style="height:100%;"><web-view style="height:100%;" src="{{url}}"></web-view></view>

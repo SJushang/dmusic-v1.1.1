@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "歌手",
+  "navigationBarBackgroundColor": "#00e4ff",
+  "usingComponents": {
+    "uni-indexed-list": "/components/uni-indexed-list/uni-indexed-list",
+    "song-footer": "/components/uni-music/SongFooter"
+  }
+}

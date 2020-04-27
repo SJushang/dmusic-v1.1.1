@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationBarBackgroundColor": "#00e4ff",
+  "usingComponents": {
+    "item-container": "/components/index/item-container",
+    "song-footer": "/components/uni-music/SongFooter"
+  }
+}

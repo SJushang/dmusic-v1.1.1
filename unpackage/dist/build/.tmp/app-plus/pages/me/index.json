@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationBarBackgroundColor": "#ff5524",
+  "usingComponents": {
+    "item-container": "/components/index/item-container"
+  }
+}

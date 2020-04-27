@@ -1,0 +1,1 @@
+<view><uni-indexed-list vue-id="c5d38100-1" options="{{list}}" showSelect="{{false}}" data-event-opts="{{[['^click',[['bindClick']]]]}}" bind:click="__e" bind:__l="__l"></uni-indexed-list><view><song-footer class="vue-ref" vue-id="c5d38100-2" data-ref="SongFooter" bind:__l="__l"></song-footer></view></view>

@@ -1,0 +1,52 @@
+
+.status_bar {
+    height: var(--status-bar-height);
+    width: 100%;
+    background-color: #ff5524;
+}
+.top_nav_segmented {
+    background-color: #ff5524;
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+}
+.nav_segmented {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+	font-size: 30px;
+	color: #ffffff;
+}
+.top_view {
+    height: var(--status-bar-height);
+    width: 100%;
+    position: fixed;
+    background-color: #ff5524;
+    top: 0;
+    z-index: 999;
+}
+.right-plus {
+    font-family: iconfont;
+    margin-left: auto;
+    width: 40rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    font-size: 34rpx;
+    color: #ffffff;
+    text-align: center;
+    font-family: iconfont;
+    margin-right: 30rpx;
+	margin-top: -35px;
+}
+.left-nav-icon {
+    font-family: iconfont;
+    margin-left: auto;
+    width: 40rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    font-size: 34rpx;
+    text-align: center;
+    font-family: iconfont;
+    margin-right: 20rpx;
+    color: #ff5524;
+}
+
